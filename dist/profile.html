@@ -57,7 +57,7 @@
                 <button class="btn-plain basket">
                     <img src="img/icon/bag.svg" alt="">
                 </button>
-                <div class="dropdown">
+                <div class="dropdown dropdown-profile">
                     <button class="dropdown-toggle" type="button"
                             id="dropdownProfile" data-toggle="dropdown">
                         <div class="prof-item">
@@ -67,9 +67,9 @@
                         </div>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownProfile">
-                        <a class="dropdown-item" href="#">Шығу</a>
-                        <a class="dropdown-item" href="#">Шығу</a>
-                        <a class="dropdown-item" href="#">Шығу</a>
+                        <a class="dropdown-item" href="#">Шығу Шығу Шығу</a>
+                        <a class="dropdown-item" href="#">Шығу Шығу Шығу</a>
+                        <a class="dropdown-item" href="#">Шығу Шығу Шығу</a>
                     </div>
                 </div>
                 <div class="dropdown-language">
@@ -101,6 +101,7 @@
             </a>
         </li>
         <li>
+
             <a href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <path d="M15.3333 15.3333H22M15.3333 18.6667H22M15.3333 22H19.1444M22 10.8889V7.48889C22 6.26222 21.0056 5.26667 19.7778 5.26667H12.5878C12.22 5.26667 11.8756 5.08444 11.6689 4.78L10.1078 2.48556C9.90111 2.18222 9.55778 2 9.19 2H4.22222C2.99444 2 2 2.99444 2 4.22222V17.5556C2 18.7833 2.99444 19.7778 4.22222 19.7778H10.8889"
@@ -262,13 +263,21 @@
         <div class="container">
             <div class="avatar-back-caption">
                 <h1>Саги Кани <i class="icon bage-verify"></i></h1>
-                <a href="#" class="change-avatar">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19 8.109C18.55 8.045 18.093 8 17.625 8C12.309 8 8 12.309 8 17.625C8 18.093 8.045 18.55 8.109 19M16 19H4C2.343 19 1 17.657 1 16V4C1 2.343 2.343 1 4 1H16C17.657 1 19 2.343 19 4V16C19 17.657 17.657 19 16 19ZM7.98744 5.51256C8.67086 6.19598 8.67086 7.30402 7.98744 7.98743C7.30402 8.67085 6.19598 8.67085 5.51257 7.98743C4.82915 7.30401 4.82915 6.19597 5.51257 5.51256C6.19599 4.82914 7.30403 4.82914 7.98744 5.51256Z"
-                              stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <span>Фонды өзгерту <em>(50d.)</em></span>
-                </a>
+                <div class="btn-control">
+                    <div class="user-type">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 16.934H3C1.895 16.934 1 16.039 1 14.934V12.481C1 11.328 1.935 10.393 3.088 10.393H4M16 16.934H17C18.105 16.934 19 16.039 19 14.934V12.434C19 11.329 18.105 10.434 17 10.434H16M13 4V3C13 1.895 12.105 1 11 1H9C7.895 1 7 1.895 7 3V4M11 8H9M12 15.894H8C7.448 15.894 7 15.446 7 14.894V12.894C7 12.342 7.448 11.894 8 11.894H12C12.552 11.894 13 12.342 13 12.894V14.894C13 15.447 12.552 15.894 12 15.894ZM12 4H8C5.791 4 4 5.791 4 8V17C4 18.105 4.895 19 6 19H14C15.105 19 16 18.105 16 17V8C16 5.791 14.209 4 12 4Z" stroke="#848E9F" stroke-width="1.5492" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p>Оқушы,<span>11 сынып</span></p>
+                    </div>
+                    <a href="#" class="change-avatar">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 8.109C18.55 8.045 18.093 8 17.625 8C12.309 8 8 12.309 8 17.625C8 18.093 8.045 18.55 8.109 19M16 19H4C2.343 19 1 17.657 1 16V4C1 2.343 2.343 1 4 1H16C17.657 1 19 2.343 19 4V16C19 17.657 17.657 19 16 19ZM7.98744 5.51256C8.67086 6.19598 8.67086 7.30402 7.98744 7.98743C7.30402 8.67085 6.19598 8.67085 5.51257 7.98743C4.82915 7.30401 4.82915 6.19597 5.51257 5.51256C6.19599 4.82914 7.30403 4.82914 7.98744 5.51256Z"
+                                  stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Фонды өзгерту <em>(50d.)</em></span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -343,7 +352,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-5">
-                    <ul class="profile-nav">
+                    <button class="btn-plain btn-white filter-toggle">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.2426 7.75736C18.5858 10.1005 18.5858 13.8995 16.2426 16.2426C13.8995 18.5858 10.1005 18.5858 7.75733 16.2426C5.41418 13.8995 5.41418 10.1005 7.75733 7.75736C10.1005 5.41421 13.8995 5.41421 16.2426 7.75736" stroke="#848E9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16.2426 10.5858C18.5858 11.3669 18.5858 12.6332 16.2426 13.4142C13.8995 14.1953 10.1005 14.1953 7.75733 13.4142C5.41418 12.6332 5.41418 11.3669 7.75733 10.5858C10.1005 9.80475 13.8995 9.80475 16.2426 10.5858" stroke="#848E9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 6V18" stroke="#848E9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7.5 3H5C3.895 3 3 3.895 3 5V7.5" stroke="#848E9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 16.5V19C3 20.105 3.895 21 5 21H7.5" stroke="#848E9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16.5 21H19C20.105 21 21 20.105 21 19V16.5" stroke="#848E9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21 7.5V5C21 3.895 20.105 3 19 3H16.5" stroke="#848E9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Навигация</span>
+                        <svg width="22" height="13" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg" class="filter-arrow">
+                            <path d="M1 1L11 11L21 1" stroke="#C4C4C4" stroke-width="1.5"/>
+                        </svg>
+                    </button>
+                    <ul class="profile-nav side-toggle">
                         <li>
                             <a href="#">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -354,6 +378,16 @@
                                 </svg>
                                 <span>Менің сабақтарым</span>
 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.442 21C13.433 21 14.237 20.196 14.237 19.205V18.502" stroke="#848E9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.464 6.59961H5.295C4.304 6.59961 3.5 7.40361 3.5 8.39461V19.2056C3.5 20.1956 4.304 20.9996 5.295 20.9996H12.442" stroke="#848E9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M8.55396 16.9706L15.468 18.8336C16.423 19.0906 17.404 18.5206 17.66 17.5606L20.439 7.12965C20.695 6.16965 20.128 5.18265 19.174 4.92465L12.26 3.06165C11.305 2.80465 10.324 3.37465 10.068 4.33465L7.28896 14.7666C7.03296 15.7266 7.59896 16.7136 8.55396 16.9706Z" stroke="#848E9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>Менің курстарым</span>
                             </a>
                         </li>
                         <li>
@@ -1184,6 +1218,13 @@
 <script type="text/javascript">
     $(function () {
         $('.circlechart').circlechart();
+    });
+
+    $('.filter-toggle').click(function (e) {
+        e.preventDefault();
+        $(this).toggleClass('active')
+        $('.side-toggle').slideToggle(600);
+
     });
 </script>
 <script src="js/common.js"></script>
