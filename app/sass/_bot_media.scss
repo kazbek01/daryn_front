@@ -1,0 +1,91 @@
+@media (max-width: 320px) {}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .back-link{
+    font-size: 16px;
+  }
+  .bot-profile{
+    margin: 0 15px;
+    justify-content: center;
+    &-img{
+      width: 30px;
+      height: 30px;
+    }
+    &-caption{
+      padding-left: 10px;
+      h1{
+        font-size: 18px;
+      }
+    }
+  }
+  .call-link{
+    font-size: 16px;
+    span{
+      display: none;
+    }
+    svg{
+      flex-shrink: 0;
+    }
+  }
+  .bot-item,.user-answer{
+    padding: 10px 20px;
+    p{
+      font-size: 16px;
+    }
+  }
+  #bubble{
+    padding: 10px 20px;
+  }
+  .class-list{
+    li{
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  }
+  .registr-type{
+    display: block;
+    .btn-plain{
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
+  .btnBlue{
+    padding: 15px 25px;
+    font-size: 18px;
+  }
+  .registr-enter{
+    input{
+      margin: 15px 0;
+      width: 100%;
+      padding: 15px 25px;
+      font-size: 18px;
+      height: auto;
+    }
+  }
+  .btn-bordered,.btn-blue-gradient{
+    width: 100%;
+    padding: 15px 25px;
+    font-size: 18px;
+    height: auto;
+  }
+  .hidden{
+    display: none;
+  }
+  .showed-flex{
+    display: block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) and (max-width: 1024px) {}
+
+@media (min-width: 1025px) and (max-width: 2000px) {
+}
+
+@media (max-width: 1500px) {}
+
+@media (min-width: 1500px) {}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) and (max-height: 600px) {
+}
