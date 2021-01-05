@@ -23,8 +23,12 @@
   stroke-linecap: square;
   fill: none;
   animation: circle-chart-fill 2s reverse; /* 1 */ 
-  transform: rotate(-90deg); /* 2, 3 */
-  transform-origin: center; /* 4 */
+  -webkit-transform: rotate(-90deg); 
+      -ms-transform: rotate(-90deg); 
+          transform: rotate(-90deg); /* 2, 3 */
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center; /* 4 */
 }
 
 /**
@@ -38,7 +42,9 @@
  */
 
 .circle-chart__circle--negative {
-  transform: rotate(-90deg) scale(1,-1); /* 1, 2, 3 */
+  -webkit-transform: rotate(-90deg) scale(1,-1);
+      -ms-transform: rotate(-90deg) scale(1,-1);
+          transform: rotate(-90deg) scale(1,-1); /* 1, 2, 3 */
 }
 
 .circle-chart__background {
@@ -48,9 +54,12 @@
 }
 
 .circle-chart__info {
-  animation: circle-chart-appear 2s forwards;
+  -webkit-animation: circle-chart-appear 2s forwards;
+          animation: circle-chart-appear 2s forwards;
   opacity: 0;
-  transform: translateY(0.3em);
+  -webkit-transform: translateY(0.3em);
+      -ms-transform: translateY(0.3em);
+          transform: translateY(0.3em);
 }
 
 .circle-chart__percent {
@@ -77,13 +86,26 @@
   stroke: #ff4444;
 }
 
+@-webkit-keyframes circle-chart-fill {
+  to { stroke-dasharray: 0 100; }
+}
+
 @keyframes circle-chart-fill {
   to { stroke-dasharray: 0 100; }
+}
+
+@-webkit-keyframes circle-chart-appear {
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 @keyframes circle-chart-appear {
   to {
     opacity: 1;
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
