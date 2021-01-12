@@ -54,8 +54,14 @@ a:hover,a:focus{
 .mb0{
   margin-bottom: 0;
 }
+.mt10 {
+  margin-top: 10px;
+}
 .mt20{
   margin-top: 20px;
+}
+.mt24 {
+  margin-top: 24px;
 }
 .mr20{
   margin-right: 20px;
@@ -193,4 +199,8 @@ section{
 }
 .touch{
   -webkit-overflow-scrolling: touch;
+}
+
+.fs-16 {
+  font-size: 16px!important;
 }

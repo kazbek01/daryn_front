@@ -3137,6 +3137,296 @@
     }
   }
   //**************MODAL DISCOUNT END*********
+
+  .vacancy {
+    padding-top: 60px;
+  }
+
+  .vacancy-banner {
+    padding: 10px 0;
+    background: none;
+  }
+
+  .vacancy-banner-content {
+    width: 100%;
+    h1 {
+      font-size: 30px;
+      line-height: 100%;
+    }
+    p {
+      margin-top: 5px;
+    }
+    span {
+      margin-top: 5px;
+    }
+  }
+
+  .vacancy-content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .vacancy-aside-unit {
+    padding: 15px;
+  }
+
+  .vacancy-item-wrapper {
+    padding-top: 15px;
+  }
+
+  .vacancy-item-img {
+    display: none;
+  }
+
+  .vacancy-item-caption {
+    padding: 15px;
+  }
+
+  .vacancy-caption-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .vacancy-date {
+    order: 1;
+    line-height: 100%;
+  }
+
+  .vacancy-name {
+    order: 2;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .vacancy-item-caption .vacancy-nav {
+    margin-top: 10px;
+  }
+
+  .nav-item-dark {
+    font-size: 14px;
+  }
+
+  .vacancy-nav li + li {
+    margin-left: 18px;
+  }
+
+  .vacancy-item-caption .vacancy-nav-20 {
+    margin-top: 5px;
+  }
+
+  .vacancy-nav-20 li + li {
+    margin-left: 16px;
+  }
+
+  .vacancy-item-caption .vacancy-nav li + li:before {
+    left: -11px;
+  }
+
+  .vacancy-nav-20 li + li:before {
+    left: -10px;
+  }
+
+  .vacancy-item {
+    margin-bottom: 10px;
+  }
+
+  .vacancy-price {
+    font-size: 14px;
+  }
+
+  .vacancy-modal-btn {
+    width: 100%;
+  }
+
+  .vacancy-left-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .vacancy-left-caption {
+    margin-top: 0;
+    width: 48%;
+  }
+
+  .vacancy-info-wrapper {
+    padding-top: 75px;
+  }
+
+  .vacancy-left-img {
+    width: 48%;
+  }
+
+  .vacancy-left-caption p {
+    margin-top: 5px;
+  }
+
+  .vacancy-left-tools {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .vacancy-left-tools button {
+    order: 2;
+    padding: 10px 20px;
+  }
+
+  .vacancy-share {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .vacancy-social-nav li {
+    padding: 0 15px;
+  }
+
+  .vacancy-info {
+    margin-top: 20px;
+    padding-left: 0;
+  }
+
+  .nav-item-grey {
+    font-size: 13px;
+  }
+
+  .vacancy-info-caption .nav-item-dark {
+    font-size: 13px;
+  }
+
+  .vacancy-info-caption .nav-item-transparent {
+    font-size: 13px!important;
+  }
+
+  .vacancy-info-top span {
+    font-size: 13px;
+  }
+
+  .vacancy-info-title {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .vacancy-info-item {
+    margin-top: 15px;
+  }
+
+  .heading-hr span {
+    font-size: 12px;
+  }
+
+  .heading-hr hr {
+    margin: 0 10px;
+  }
+
+  .heading-hr i {
+    width: 20px;
+    height: 20px;
+  }
+
+  .vacancy-condition-nav {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+
+  .vacancy-condition-nav li {
+    font-size: 13px;
+  }
+
+  .vacancy-condition-nav li + li {
+    margin-top: 5px;
+  }
+
+  .vacancy-condition-nav li:before {
+    left: -20px;
+  }
+
+  .vacancy-share-top {
+    padding: 8px 15px;
+  }
+
+  .vacancy-social-nav {
+    padding: 8px 15px;
+  }
+
+  .vacancy-aside-wrapper {
+    display: none;
+  }
+
+  .modal-box-subtitle {
+    font-size: 16px;
+  }
+
+  .vacancy-modal-form {
+    margin-top: 15px;
+  }
+
+  .modal-box-bottom {
+    flex-direction: column;
+  }
+
+  .modal-box-bottom button {
+    width: 100%;
+  }
+
+  .modal-box-bottom button + button {
+    margin-top: 10px;
+  }
+
+  .vacancy-attach-btn {
+    justify-content: center;
+  }
+
+  .purchase-modal {
+    padding: 0;
+  }
+
+  .purchase-header {
+    padding: 15px;
+    flex-direction: column;
+  }
+
+  .purchase-header-img {
+    margin: 0 auto 10px auto;
+    width: 100px;
+    height: 100px;
+  }
+
+  .purchase-header-content {
+    flex-direction: column;
+  }
+
+  .purchase-header-content .lesson-item-price {
+    width: 100%;
+  }
+
+  .purchase-content {
+    padding: 15px;
+  }
+
+  .purchase-item-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .purchase-item h6 {
+    font-size: 16px;
+  }
+
+  .purchase-content-bottom {
+    flex-direction: column;
+  }
+
+  .purchase-content-bottom button {
+    width: 100%;
+  }
+
+  .purchase-content-bottom button + button {
+    margin-left: 0;
+    margin-top: 10px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -4654,6 +4944,111 @@
       margin-left: 10px;
     }
   }
+  .vacancy-banner {
+    padding: 20px 0
+  }
+
+  .vacancy-item-wrapper {
+    margin-top: 15px;
+  }
+
+  .vacancy-aside {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .vacancy-aside-city {
+    width: 100%;
+  }
+
+  .vacancy-aside-checkbox {
+    width: 50%;
+  }
+
+  .vacancy-aside-bottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    .btn-lilac {
+      justify-content: center;
+      span {
+        flex: initial;
+      }
+      i {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .vacancy-aside-bottom button + button {
+    margin-top: 0;
+  }
+
+  .vacancy-aside-bottom button {
+    width: 48%;
+  }
+
+  .vacancy-aside .vacancy-aside-checkbox + .vacancy-aside-checkbox {
+    border-left: 1px solid #F5F5F5;
+  }
+
+  .vacancy-aside-wrapper {
+    display: none;
+  }
+
+  .vacancy-left {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .vacancy-left-content {
+    width: 48%;
+  }
+
+  .vacancy-left-tools {
+    width: 48%;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vacancy-left-caption {
+    margin-top: 15px;
+  }
+
+  .vacancy-left-tools button {
+    order: 2;
+  }
+
+  .vacancy-share {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .vacancy-left-img {
+    width: 85%;
+  }
+
+  .vacancy-social-nav li {
+    padding: 0 15px;
+  }
+
+  .vacancy-info {
+    margin-top: 30px;
+    padding-left: 0;
+  }
+
+  .vacancy-info-title {
+    margin-top: 15px;
+  }
+
+  .vacancy-aside-wrapper {
+    display: none;
+  }
+
+  .purchase-modal {
+    padding: 0;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -4964,6 +5359,9 @@
   .webinar-form{
     padding: 20px 20px 60px 20px;
   }
+  .vacancy-social-nav li {
+    padding: 0 8px;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 2000px) {
@@ -4990,4 +5388,10 @@
 }
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) and (max-height: 600px) {
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+  .modal-box {
+    max-height: calc(100vh - 90px);
+  }
 }
