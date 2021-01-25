@@ -17017,6 +17017,7 @@ article .article-control {
   background: rgba(0, 0, 0, 0.8);
   padding-top: 156px;
   padding-bottom: 80px;
+  background: url("../img/main/article-md.png") no-repeat center/cover;
 }
 
 .course-main .bg-video {
@@ -17039,6 +17040,23 @@ article .article-control {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.course-main:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background: #000;
+}
+
+.course-caption {
+  position: relative;
 }
 
 .header-course {
@@ -17273,6 +17291,14 @@ article .article-control {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 68px;
+}
+
+.course-form-caption .course-control.single-btn .btn-plain {
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .btn-course {
