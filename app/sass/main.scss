@@ -15791,6 +15791,326 @@ article {
 }
 //*************************vacancy*************************
 
+//*********************************kundelik****************
+.chooseGrade-box {
+  padding: 30px 0;
+  position: relative;
+}
+
+.chooseGrade-box h6 {
+  font-family: 'SF Pro Text Light';
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: -0.3px;
+  color: #162F71;
+}
+
+.chooseGrade-item-wrapper {
+  margin: 30px -7px 0 -7px;
+}
+
+.chooseGrade-item {
+  padding: 15px 25px;
+  background: #FFFFFF;
+  border: 1px dashed #E5E5E5;
+  border-radius: 6px;
+  position: relative;
+  width: fit-content;
+  margin: 0 7px;
+  transition: 0.3s ease;
+}
+
+.chooseGrade-item.active {
+  background: #026FFF;
+  box-shadow: 0px 15px 30px rgba(2, 111, 255, 0.3);
+  border: 1px solid #026FFF;
+}
+
+.chooseGrade-item.active span {
+  color: #FFFFFF;
+}
+
+.chooseGrade-item span {
+  font-family: SF Pro Display;
+  font-size: 17px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.chooseGrade-item input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.chooseGrade-item-wrapper .slick-prev {
+  left: -45px;
+  width: 30px;
+  height: 30px;
+}
+
+.chooseGrade-item-wrapper .slick-next {
+  right: -45px;
+  width: 30px;
+  height: 30px;
+}
+
+.chooseGrade-item-wrapper .slick-prev:before {
+  content: url("../img/icon/prev-products.svg");
+  transition: 0.3s ease;
+}
+
+.chooseGrade-item-wrapper .slick-next:before {
+  content: url("../img/icon/next-products.svg");
+  transition: 0.3s ease;
+}
+
+.chooseGrade-item-wrapper .slick-disabled:before {
+  opacity: 0;
+}
+
+.book-open {
+  background: url("../img/icon/book-open.svg") no-repeat center/contain;
+  width: 24px;
+  height: 24px;
+}
+
+.chooseSubject-wrapper {
+  box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.03), inset 0px 5px 10px rgba(0, 0, 0, 0.03), inset 0px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.chooseSubject-content {
+  padding: 30px 0 60px 0;
+}
+
+.chooseSubject-title {
+  display: flex;
+  align-items: center;
+}
+
+.chooseSubject-title span {
+  font-family: SF Pro Text Medium;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.3px;
+  color: #697285;
+  margin-left: 6px;
+}
+
+.chooseSubject-item-wrapper {
+  margin: 15px -9px 0 -9px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.chooseSubject-item {
+  width: 170px;
+  height: fit-content;
+  margin: 9px;
+}
+
+.chooseSubject-item-img {
+  width: 170px;
+  height: 170px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.chooseSubject-item-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chooseSubject-item-caption {
+  margin-top: 15px;
+}
+
+.chooseSubject-item-caption p {
+  font-family: SF Pro Text Medium;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.3px;
+  color: #162F71;
+}
+
+.kundelik-modal {
+  padding: 0;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.03), 0px 20px 40px rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 200px;
+}
+
+.kundelik-modal-btn {
+  width: 50px;
+  height: 50px;
+  background: #EE0000;
+  border-radius: 0px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.kundelik-modal-tab {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 10px 30px;
+}
+
+.kundelik-modal-tab button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: SF Pro Display;
+  font-size: 17px;
+  line-height: 120%;
+  color: #162F71;
+}
+
+.kundelik-modal-tab button.active {
+  background: #F3F5F9;
+  color: #2E7FF8;
+}
+
+.kundelik-modal-body {
+  max-height: calc(100vh - 230px);
+  overflow-y: auto;
+  margin-right: 10px;
+}
+
+.kundelik-modal-body::-webkit-scrollbar {
+  width: 3px;
+}
+
+.kundelik-modal-body::-webkit-scrollbar-thumb {
+  background: #848D9F;
+}
+
+.kundelik-modal-body::-webkit-scrollbar-track {
+  background: #EEEEEE;
+}
+
+.kundelik-modal-body .content-item-head.content-active {
+  .content-play {
+    fill: #2D4EF5;
+  }
+  .contentPlay {
+    fill: white;
+    stroke: white;
+  }
+  h2 {
+    color: #026FFF;
+  }
+  span {
+    color: #026FFF;
+  }
+  .content-arrow path {
+    stroke: #026FFF;
+  }
+}
+
+.hometask-modal {
+  padding: 40px 50px 44px 50px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.03), 0px 20px 40px rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 410px;
+}
+
+.hometask-modal-title {
+  font-family: SF Pro Text Bold;
+  font-size: 30px;
+  line-height: 110%;
+  letter-spacing: -0.3px;
+  color: #162F71;
+}
+
+.hometask-modal-body {
+  margin-top: 27px;
+}
+
+.hometask-modal-body p {
+  font-family: SF Pro Text Ultralight;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.hometask-modal-body h6 {
+  margin-top: 30px;
+  font-size: 17px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.hometask-modal-share {
+  height: 60px;
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-top: 30px;
+}
+
+.hometask-modal-share p {
+  font-family: SF Pro Display Light;
+  font-size: 19px;
+  line-height: 120%;
+  color: #162F71;
+  max-width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hometask-modal-share button {
+  width: 20px;
+  height: 20px;
+}
+
+.hometask-modal-share button i {
+  width: 18px;
+  height: 18px;
+}
+
+.hometask-modal-social {
+  margin-top: 20px;
+}
+
+.hometask-modal-social .nav-link {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #F5F5F5;
+  border-radius: 6px;
+}
+
+.hometask-modal-social li + li {
+  margin-left: 10px;
+}
+
+
+
+
+
+//*********************************kundelik****************
+
 
 
 //*************COURSE LANDING END*****************

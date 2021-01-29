@@ -3427,7 +3427,116 @@
     margin-left: 0;
     margin-top: 10px;
   }
+
+  .chooseGrade-slider-arrows {
+    position: absolute;
+    top: 32px;
+    right: 0;
+    display: flex!important;
+  }
+
+  .chooseGrade-slider-arrows button {
+    width: 45px;
+    height: 35px;
+    background: #f5f5f5;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chooseGrade-slider-arrows li + li {
+    margin-left: 5px;
+  }
+
+  .chooseGrade-item-wrapper .slick-prev, .chooseGrade-item-wrapper .slick-next {
+    display: none;
+  }
+
+  .chooseGrade-box h6 {
+    max-width: 65%;
+  }
+
+  .chooseGrade-item {
+    padding: 10px 18px;
+  }
+
+  .chooseSubject-item {
+    width: 130px;
+  }
+
+  .chooseSubject-item-img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .chooseSubject-item-wrapper {
+    justify-content: space-around;
+  }
+
+  .chooseSubject-item-caption {
+    margin-top: 10px;
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .kundelik-modal {
+    padding: 0;
+    overflow-y: hidden;
+    height: initial;
+    max-height: calc(100vh - 150px);
+    &-tab {
+      padding: 20px 10px 10px 10px;
+      justify-content: center;
+    }
+    &-body {
+      max-height: calc(100vh - 220px);
+    }
+  }
+
+  .kundelik-modal-btn {
+    width: 35px;
+    height: 35px;
+  }
+
+  .kundelik-modal-tab button {
+    padding: 7px 15px;
+  }
+
+  .hometask-modal-body {
+    margin-top: 20px;
+    p {
+      font-size: 20px;
+    }
+    h6 {
+      font-size: 16px;
+      margin-top: 20px;
+      line-height: 120%;
+    }
+  }
+
+  .hometask-modal-share {
+    margin-top: 20px;
+    padding: 0 15px;
+    height: 50px;
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .hometask-modal {
+    height: initial;
+    max-height: calc(100vh - 150px);
+    overflow-y: hidden;
+    &-body {
+      max-height: calc(100vh - 230px);
+      overflow-y: auto;
+    }
+  }
+
 }
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   .header {
@@ -5049,6 +5158,19 @@
   .purchase-modal {
     padding: 0;
   }
+
+  .chooseGrade-item-wrapper .slick-prev {
+    left: -30px;
+  }
+
+  .chooseGrade-item-wrapper .slick-next {
+    right: -30px;
+  }
+
+  .chooseSubject-item-wrapper {
+    justify-content: space-around;
+  }
+
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -5362,6 +5484,7 @@
   .vacancy-social-nav li {
     padding: 0 8px;
   }
+
 }
 
 @media (min-width: 1025px) and (max-width: 2000px) {
@@ -5394,4 +5517,8 @@
   .modal-box {
     max-height: calc(100vh - 90px);
   }
+  .kundelik-modal-body {
+    max-height: calc(100vh - 160px);
+  }
 }
+
