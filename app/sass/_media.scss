@@ -3534,6 +3534,85 @@
       overflow-y: auto;
     }
   }
+  .kundelik-landing-title h1 {
+    font-size: 45px;
+    line-height: 100%;
+  }
+  .kundelik-main-slider {
+    padding-top: 70px;
+    padding-bottom: 15px;
+  }
+  .kundelik-landing-title video {
+    width: 40px;
+    height: 48px;
+    left: 105px;
+    top: 3px;
+  }
+  .cursor {
+    width: 30px;
+    height: 46px;
+    right: -7px;
+    bottom: 16px;
+  }
+  .kundelik-landing-title:hover .cursor {
+    transform: translate(3px, 32px) translateZ(0) rotateY(25deg);
+  }
+  .instruction-title {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .instruction-title p {
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .kundelik-header-link {
+    margin-top: 30px;
+    justify-content: flex-end;
+  }
+  .instruction-wrapper {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .instruction {
+    margin-bottom: 50px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .instruction-text {
+    width: 65%;
+    max-width: initial;
+  }
+  .instruction-text h6, .instruction-text p {
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .instruction-text p {
+    margin-top: 14px;
+  }
+  .instruction-video {
+    width: 30%;
+    padding: 0;
+    height: 110px;
+  }
+  .instruction-play-btn {
+    width: 30px;
+    height: 30px;
+  }
+  .instruction-play-btn svg {
+    width: 10px;
+    height: 13px;
+  }
+  #instruction_video_modal .modal-content {
+    height: 220px;
+    width: 90%;
+  }
+  .kundelik-header-link .nav-link i {
+    width: 25px;
+    height: 25px;
+  }
+  .kundelik-header-link li+li {
+    margin-left: 15px;
+  }
 
 }
 
@@ -5170,6 +5249,27 @@
   .chooseSubject-item-wrapper {
     justify-content: space-around;
   }
+  .kundelik-main-slider {
+    padding-bottom: 30px;
+  }
+  .kundelik-landing-title h1 {
+    font-size: 95px;
+    line-height: 100px;
+  }
+  .instruction-wrapper {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .instruction-text {
+    max-width: 300px;
+  }
+  .instruction-video {
+    height: 350px;
+    padding: 50px 20px;
+  }
+  .instruction {
+    margin-bottom: 90px;
+  }
 
 }
 
@@ -5483,6 +5583,16 @@
   }
   .vacancy-social-nav li {
     padding: 0 8px;
+  }
+  .instruction-text {
+    max-width: 400px;
+  }
+  .instruction-video {
+    height: 450px;
+  }
+  .instruction-text h6, .instruction-text p {
+    font-size: 28px;
+    line-height: 30px;
   }
 
 }
