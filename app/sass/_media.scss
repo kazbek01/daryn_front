@@ -3196,6 +3196,8 @@
     order: 2;
     font-size: 16px;
     margin-top: 10px;
+    white-space: normal;
+    line-height: 120%;
   }
 
   .vacancy-item-caption .vacancy-nav {
@@ -3325,20 +3327,20 @@
     height: 20px;
   }
 
-  .vacancy-condition-nav {
+  .vacancy-info-item ul {
     margin-top: 10px;
     padding-left: 20px;
   }
 
-  .vacancy-condition-nav li {
+  .vacancy-info-item ul li {
     font-size: 13px;
   }
 
-  .vacancy-condition-nav li + li {
+  .vacancy-info-item ul li + li {
     margin-top: 5px;
   }
 
-  .vacancy-condition-nav li:before {
+  .vacancy-info-item ul li:before {
     left: -20px;
   }
 

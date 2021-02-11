@@ -15374,11 +15374,11 @@ article {
   background: #FFFFFF;
   border: 1px solid #F3F3F3;
   padding: 11px 15px;
-  justify-content: center;
 }
 
 .vacancy-social-nav li {
   padding: 0 12px;
+  margin-bottom: 10px;
 }
 
 .vacancy-social-nav li+li {
@@ -15469,12 +15469,16 @@ article {
   margin: 0 20px;
 }
 
-.vacancy-condition-nav {
+.vacancy-info-item ul {
   margin-top: 25px;
   padding-left: 30px;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.vacancy-condition-nav li {
+.vacancy-info-item ul li {
   font-family: SF Pro Display;
   font-weight: normal;
   font-size: 16px;
@@ -15483,15 +15487,15 @@ article {
   position: relative;
 }
 
-.vacancy-condition-nav li:hover {
+.vacancy-info-item ul li:hover {
   cursor: default;
 }
 
-.vacancy-condition-nav li+li {
+.vacancy-info-item ul li+li {
   margin-top: 10px;
 }
 
-.vacancy-condition-nav li:before {
+.vacancy-info-item ul li:before {
   content: "";
   position: absolute;
   top: 3px;
@@ -15502,7 +15506,7 @@ article {
   height: 10px;
 }
 
-.vacancy-condition-nav li:hover:before {
+.vacancy-info-item ul li:hover:before {
   background: #222222;
   border: none;
 }
@@ -15572,6 +15576,19 @@ article {
   font-weight: normal;
   font-size: 20px;
   line-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.vacancy-attach-btn input {
+  position: absolute;
+  top: 0;
+  left: -182px;
+  width: 172%;
+  height: 100%;
+  cursor: pointer;
+  margin-bottom: 0;
+  opacity: 0;
 }
 
 .vacancy-attach-btn:hover, .vacancy-attach-btn:focus {
