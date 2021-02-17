@@ -3615,9 +3615,29 @@
   .kundelik-header-link li+li {
     margin-left: 15px;
   }
+  .purchase-modal-mini {
+    padding: 0;
+  }
+  .purchase-modal-mini .bg-green span {
+    display: inline-block;
+  }
+  .profLesson-purchase {
+    display: block;
+    padding: 15px 20px;
+  }
+  .profLesson-purchase .purchase-time {
+    margin-top: 10px;
+  }
+  .profLesson-purchase .btn-blue-arrow {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .profLesson-notice {
+    padding: 15px 20px;
+  }
 
 }
-
 
 @media (min-width: 768px) and (max-width: 991px) {
   .header {
@@ -5272,6 +5292,41 @@
   .instruction {
     margin-bottom: 90px;
   }
+  .purchase-modal-mini .purchase-content {
+    padding: 20px;
+  }
+  .purchase-modal-btn {
+    width: 48%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+  .purchase-modal-mini .bg-green {
+    padding: 10px 20px;
+  }
+  .purchase-modal-mini .bg-green span {
+    display: inline-block;
+  }
+  .purchase-content-bottom .purchase-modal-btn + .purchase-modal-btn {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .purchase-content-bottom .purchase-modal-btn:first-child {
+    margin-right: 10px;
+  }
+  .purchase-modal-mini {
+    padding: 0;
+  }
+  .profLesson-purchase {
+    display: block;
+  }
+  .purchase-time {
+    margin-top: 10px;
+  }
+  .profLesson-purchase .btn-blue-arrow {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
 
 }
 

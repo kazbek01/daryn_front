@@ -1502,6 +1502,71 @@
         </div>
     </div>
 </div>
+<div class="modal-box purchase-modal-mini">
+    <div class="purchase-header">
+        <div class="purchase-header-img">
+            <img src="img/main/daryn-school.png">
+        </div>
+        <div class="purchase-header-content">
+            <div class="lesson-item-caption">
+                <div class="combo-title">
+                    <h4>РФМШ 8-сынып дайындық</h4>
+                </div>
+                <div class="lesson-info">
+                    <ul class="lesson-rate">
+                        <li>
+                            <img src="img/icon/star-orange.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="img/icon/star-orange.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="img/icon/star-orange.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="img/icon/star-orange.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="img/icon/star-grey-br.svg" alt="">
+                        </li>
+                    </ul>
+                    <p>5</p>
+                </div>
+            </div>
+            <div class="lesson-item-price">
+                <div class="priceCover">
+                    <h4>2 000₸</h4>
+                    <div class="discount-red">
+                        <i class="icon i-discount-white"></i>
+                        <span>14 990₸</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="purchase-content">
+        <div class="purchase-content-bottom">
+            <button class="btn-plain purchase-modal-btn bg-lilac">
+                <i class="icon package-blue"></i>
+                <span class="text-blue">В корзину</span>
+            </button>
+            <button class="btn-plain purchase-modal-btn bg-blue">
+                <i class="icon icon-finger"></i>
+                <span class="text-white">Подтвердить оплату</span>
+            </button>
+            <button class="btn-plain purchase-modal-btn bg-pink">
+                <i class="icon icon-kaspi"></i>
+                <span class="text-red">Рассрочка</span>
+            </button>
+            <button class="btn-plain purchase-modal-btn bg-green">
+                <i class="icon earphone-white"></i>
+                <span class="text-white">Помощь</span>
+            </button>
+        </div>
+    </div>
+
+    </div>
+</div>
 <div class="overlay"></div>
 <footer>
     <div class="container">
@@ -1578,12 +1643,16 @@
         else {
             span.text("Фильтрді ашу");
         }
-
     });
 
     $('input[type="radio"]').click(function () {
         $('.purchase-modal').addClass('showed');
         $('.overlay').addClass('overlay-showed');
+    })
+
+    $('.purchase-item').click(function (){
+        $('.purchase-modal-mini').addClass('showed');
+        $('.purchase-modal').removeClass('showed');
     })
 
 </script>

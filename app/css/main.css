@@ -7460,6 +7460,7 @@ input:checked + .slider:before {
           border-radius: 6px;
   background: white;
   margin-bottom: 15px;
+  overflow: hidden;
 }
 
 .profLesson-head {
@@ -7512,6 +7513,163 @@ input:checked + .slider:before {
   font-size: 16px;
   line-height: 100%;
   color: #848E9F;
+}
+
+.profLesson-notice {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFF3F3;
+  -webkit-box-shadow: inset 0px 1px 0px #F5F5F5;
+          box-shadow: inset 0px 1px 0px #F5F5F5;
+  padding: 15px 30px;
+}
+
+.profLesson-notice p {
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  line-height: 100%;
+  color: #EB5757;
+  margin-left: 10px;
+}
+
+.profLesson .alarm-red {
+  background: url("../img/icon/alarm-clock.svg") no-repeat center/contain;
+  width: 24px;
+  height: 24px;
+}
+
+.profLesson-purchase {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 6px 6px 30px;
+  background: #EEF7FF;
+}
+
+.profLesson-purchase p {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-family: "SF Pro Text";
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 1.7px;
+  color: #848E9F;
+}
+
+.profLesson-purchase p span {
+  color: #162F71;
+}
+
+.profLesson-purchase .btn-blue-arrow {
+  padding: 9px 20px;
+  font-family: "SF Pro Text";
+  font-size: 16px;
+  line-height: 140%;
+  text-align: right;
+  letter-spacing: 1.7px;
+  color: #FFFFFF;
+  margin-left: 30px;
+}
+
+.profLesson-purchase .purchase-time {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profLesson-purchase .purchase-time .purchase-time-item + .purchase-time-item {
+  margin-left: 6px;
+}
+
+.profLesson-purchase .purchase-time-item {
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  padding: 5px 10px;
+  position: relative;
+  overflow: hidden;
+  background: #FFFFFF;
+}
+
+.profLesson-purchase .purchase-time-item span {
+  font-family: "SF Pro Display";
+  font-size: 14px;
+  line-height: 130%;
+  color: #162F71;
+  position: relative;
+}
+
+.profLesson-purchase .puchase-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.profLesson-purchase .purchase-time-item.filled .puchase-bg {
+  background: #289D49;
+}
+
+.profLesson-purchase .purchase-time-item.filled span {
+  color: #fff;
+}
+
+.profLesson-purchase .purchase-time-item.fill .puchase-bg {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.profLesson-purchase .profLesson-purchase-text.duplicate {
+  font-family: "SF Pro Text";
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 1.7px;
+  color: #EF2626;
+  display: none;
+}
+
+.profLesson-purchase.active {
+  background: #FFF5F5;
+}
+
+.profLesson-purchase.active .profLesson-purchase-text {
+  display: none;
+}
+
+.profLesson-purchase.active .profLesson-purchase-text.duplicate {
+  display: block;
+}
+
+.profLesson-purchase.active .purchase-time-item.fill .puchase-bg {
+  background: -webkit-gradient(linear, left top, right top, from(#FF3300), color-stop(89.06%, #FF3300), color-stop(89.07%, #FFFFFF));
+  background: -webkit-linear-gradient(left, #FF3300 0%, #FF3300 89.06%, #FFFFFF 89.07%);
+  background: -o-linear-gradient(left, #FF3300 0%, #FF3300 89.06%, #FFFFFF 89.07%);
+  background: linear-gradient(90deg, #FF3300 0%, #FF3300 89.06%, #FFFFFF 89.07%);
+}
+
+.profLesson-purchase.active .purchase-time-item.fill span {
+  color: #fff;
 }
 
 .lessonInfo {
@@ -19689,6 +19847,43 @@ article .article-control {
   margin-left: 10px;
 }
 
+.icon-kaspi {
+  background: url("../img/icon/kaspilogo.svg") no-repeat center/contain;
+  width: 30px;
+  height: 30px;
+}
+
+.purchase-modal-mini {
+  padding: 0;
+  -webkit-border-radius: 12px;
+          border-radius: 12px;
+  overflow: hidden;
+  width: 870px;
+}
+
+.bg-pink {
+  background: rgba(239, 70, 53, 0.1);
+}
+
+.text-red {
+  color: #EF4635;
+}
+
+.purchase-modal-mini .bg-green {
+  padding: 10px;
+}
+
+.purchase-modal-mini .bg-green span {
+  display: none;
+}
+
+.purchase-modal-mini .purchase-content-bottom {
+  margin-top: 0;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
 .chooseGrade-box {
   padding: 30px 0;
   position: relative;
@@ -23683,6 +23878,27 @@ article .article-control {
   .kundelik-header-link li + li {
     margin-left: 15px;
   }
+  .purchase-modal-mini {
+    padding: 0;
+  }
+  .purchase-modal-mini .bg-green span {
+    display: inline-block;
+  }
+  .profLesson-purchase {
+    display: block;
+    padding: 15px 20px;
+  }
+  .profLesson-purchase .purchase-time {
+    margin-top: 10px;
+  }
+  .profLesson-purchase .btn-blue-arrow {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .profLesson-notice {
+    padding: 15px 20px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -25146,6 +25362,40 @@ article .article-control {
   }
   .instruction {
     margin-bottom: 90px;
+  }
+  .purchase-modal-mini .purchase-content {
+    padding: 20px;
+  }
+  .purchase-modal-btn {
+    width: 48%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+  .purchase-modal-mini .bg-green {
+    padding: 10px 20px;
+  }
+  .purchase-modal-mini .bg-green span {
+    display: inline-block;
+  }
+  .purchase-content-bottom .purchase-modal-btn + .purchase-modal-btn {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .purchase-content-bottom .purchase-modal-btn:first-child {
+    margin-right: 10px;
+  }
+  .purchase-modal-mini {
+    padding: 0;
+  }
+  .profLesson-purchase {
+    display: block;
+  }
+  .purchase-time {
+    margin-top: 10px;
+  }
+  .profLesson-purchase .btn-blue-arrow {
+    margin-left: 0;
+    margin-top: 10px;
   }
 }
 

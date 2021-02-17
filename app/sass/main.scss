@@ -5708,6 +5708,7 @@ input:checked + .slider:before {
   border-radius: 6px;
   background: white;
   margin-bottom: 15px;
+  overflow: hidden;
 
   &-head {
     padding: 30px;
@@ -5744,6 +5745,116 @@ input:checked + .slider:before {
       font-size: 16px;
       line-height: 100%;
       color: #848E9F;
+    }
+  }
+
+  &-notice {
+    display: flex;
+    align-items: center;
+    background: #FFF3F3;
+    box-shadow: inset 0px 1px 0px #F5F5F5;
+    padding: 15px 30px;
+    p {
+      font-family: "SF Pro Display";
+      font-size: 16px;
+      line-height: 100%;
+      color: #EB5757;
+      margin-left: 10px;
+    }
+  }
+
+  .alarm-red {
+    background: url("../img/icon/alarm-clock.svg") no-repeat center/contain;
+    width: 24px;
+    height: 24px;
+  }
+
+  &-purchase {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 6px 6px 30px;
+    background: #EEF7FF;
+    p {
+      flex: 1;
+      font-family: "SF Pro Text";
+      font-size: 16px;
+      line-height: 140%;
+      letter-spacing: 1.7px;
+      color: #848E9F;
+      span {
+        color: #162F71;
+      };
+    }
+    .btn-blue-arrow {
+      padding: 9px 20px;
+      font-family: "SF Pro Text";
+      font-size: 16px;
+      line-height: 140%;
+      text-align: right;
+      letter-spacing: 1.7px;
+      color: #FFFFFF;
+      margin-left: 30px;
+    }
+    .purchase-time {
+      display: flex;
+      align-items: center;
+    }
+    .purchase-time .purchase-time-item + .purchase-time-item {
+      margin-left: 6px;
+    }
+    .purchase-time-item {
+      border-radius: 6px;
+      padding: 5px 10px;
+      position: relative;
+      overflow: hidden;
+      background: #FFFFFF;
+    }
+    .purchase-time-item span {
+      font-family: "SF Pro Display";
+      font-size: 14px;
+      line-height: 130%;
+      color: #162F71;
+      position: relative;
+    }
+    .puchase-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .purchase-time-item.filled .puchase-bg {
+      background: #289D49;
+    }
+    .purchase-time-item.filled span {
+      color: #fff;
+    }
+    .purchase-time-item.fill .puchase-bg {
+      background: rgba(0, 0, 0, 0.03);
+    }
+    .profLesson-purchase-text.duplicate {
+      font-family: "SF Pro Text";
+      font-size: 16px;
+      line-height: 140%;
+      letter-spacing: 1.7px;
+      color: #EF2626;
+      display: none;
+    }
+  }
+  &-purchase.active {
+    background: #FFF5F5;
+    .profLesson-purchase-text {
+      display: none;
+    }
+    .profLesson-purchase-text.duplicate {
+      display: block;
+    }
+    .purchase-time-item.fill  .puchase-bg {
+      background: linear-gradient(90deg, #FF3300 0%, #FF3300 89.06%, #FFFFFF 89.07%);;
+    }
+    .purchase-time-item.fill span {
+      color: #fff;
     }
   }
 }
@@ -15805,6 +15916,40 @@ article {
 
 .purchase-content-bottom button + button {
   margin-left: 10px;
+}
+
+.icon-kaspi {
+  background: url("../img/icon/kaspilogo.svg") no-repeat center/contain;
+  width: 30px;
+  height: 30px;
+}
+
+.purchase-modal-mini {
+  padding: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 870px;
+}
+
+.bg-pink {
+  background: rgba(239, 70, 53, 0.1);
+}
+
+.text-red {
+  color: #EF4635;
+}
+
+.purchase-modal-mini .bg-green {
+  padding: 10px;
+}
+
+.purchase-modal-mini .bg-green span {
+  display: none;
+}
+
+.purchase-modal-mini .purchase-content-bottom {
+  margin-top: 0;
+  flex-wrap: wrap;
 }
 //*************************vacancy*************************
 
