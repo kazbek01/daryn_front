@@ -311,6 +311,11 @@ section a:hover, section a:focus {
   src: url("../fonts/sf pro/SF-Pro-Text-Medium.otf");
 }
 
+@font-face {
+  font-family: 'SF Pro Text Semibold';
+  src: url("../fonts/sf pro/SF-Pro-Text-Semibold.otf");
+}
+
 .bot-body {
   background: #EBF0F4;
   font-family: 'SF Pro Display';
