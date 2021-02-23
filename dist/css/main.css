@@ -19629,6 +19629,34 @@ article .article-control {
   display: -ms-flexbox;
   display: flex;
   padding: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.purchase-header .close-modal {
+  background: -webkit-gradient(linear, left top, left bottom, from(#F53C23), to(#D30404));
+  background: -webkit-linear-gradient(top, #F53C23 0%, #D30404 100%);
+  background: -o-linear-gradient(top, #F53C23 0%, #D30404 100%);
+  background: linear-gradient(180deg, #F53C23 0%, #D30404 100%);
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-border-radius: 0 0 0 12px;
+          border-radius: 0 0 0 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .purchase-header-img {
