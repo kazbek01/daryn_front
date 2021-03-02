@@ -3675,7 +3675,81 @@
   .tandau-wrapper .slick-dots {
     bottom: 20px;
   }
-
+  .intelligence-left-img {
+    width: 100%;
+    max-width: initial;
+    height: 280px;
+  }
+  .intelligence-left-img img {
+    object-fit: contain;
+  }
+  .intelligence-left-caption {
+    padding: 15px;
+  }
+  .intelligence-caption-text p {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  .intelligence-caption-text p + p {
+    margin-top: 16px;
+  }
+  .intelligence-right {
+    padding-top: 15px;
+  }
+  .intelligence-title {
+    font-size: 40px;
+    max-width: initial;
+  }
+  .intelligence-text {
+    margin-top: 15px;
+  }
+  .intelligence-text p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .intelligence-edit .form-half .form-label {
+    width: 100%;
+  }
+  .form-label.with-explain p {
+    font-size: 12px;
+    bottom: -17px;
+  }
+  .intelligence-edit .form-label {
+    margin-top: 5px!important;
+  }
+  .intelligence-input {
+    padding: 12px 25px;
+  }
+  .intelligence-input span {
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  .intelligence-input-wrapper p {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .intelligence-switch .slider:before {
+    width: 17px;
+    height: 17px;
+  }
+  .intelligence-switch .slider {
+    height: 23px;
+    width: 38px;
+  }
+  .intelligence-switch p {
+    letter-spacing: 0;
+    font-size: 14px;
+    margin-left: 8px;
+  }
+  .intelligence-wrapper {
+    padding: 70px 0 40px 0;
+  }
+  .intelligence-bottom .btn-plain {
+    margin-top: 20px;
+  }
+  .intelligence-input-wrapper {
+    margin-top: 40px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -5374,8 +5448,26 @@
   .tandau-wrapper {
     padding-bottom: 50px;
   }
-
-
+  .intelligence-left {
+    display: flex;
+    justify-content: space-between;
+  }
+  .intelligence-left-caption {
+    width: 50%;
+  }
+  .intelligence-left-img {
+    width: 40%;
+  }
+  .intelligence-left-img img {
+    object-fit: contain;
+  }
+  .intelligence-right {
+    padding-top: 30px;
+  }
+  .intelligence-title {
+    width: 100%;
+    max-width: initial;
+  }
 
 
 }
